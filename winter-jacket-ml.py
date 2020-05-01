@@ -5,6 +5,7 @@ TRAIN_SET_LIMIT = 1000
 TRAIN_SET_COUNT = 100
 
 # your mind finds a connection between the input (temperature) and the output (decision to wear a jacket).
+# simple program to train from a dataset and predicting the 
 
 TRAIN_INPUT = list()
 TRAIN_OUTPUT = list()
