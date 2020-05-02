@@ -8,7 +8,7 @@ print('We have', calendar.date.nunique(), 'days and', calendar.listing_id.nuniqu
 
 print(calendar.date.min(), calendar.date.max())
 
-print(calendar.isnull.sum())
+# print(calendar.isnull.sum())
 
 print(calendar.shape())
 
