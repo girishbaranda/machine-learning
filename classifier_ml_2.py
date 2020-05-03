@@ -44,9 +44,6 @@ print(dataset.shape)
 # head
 print(dataset.head(20))
  
-# head
-print(dataset.head(20))
- 
 # descriptions
 print(dataset.describe())
  
@@ -84,15 +81,6 @@ models.append(('KNN', KNeighborsClassifier()))
 models.append(('CART', DecisionTreeClassifier()))
 models.append(('NB', GaussianNB()))
 models.append(('SVM', SVC()))
- 
-# Spot Check Algorithms
-# models = []
-# models.append(('LR', LogisticRegression()))
-# models.append(('LDA', LinearDiscriminantAnalysis()))
-# models.append(('KNN', KNeighborsClassifier()))
-# models.append(('CART', DecisionTreeClassifier()))
-# models.append(('NB', GaussianNB()))
-# models.append(('SVM', SVC()))
  
 # evaluate each model in turn
 results = []
