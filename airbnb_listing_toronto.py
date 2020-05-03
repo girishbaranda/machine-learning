@@ -10,11 +10,11 @@ print(calendar.date.min(), calendar.date.max())
 
 # print(calendar.isnull.sum())
 
-print(calendar.shape())
+# print(calendar.shape())
 
-print(calendar.head())
+# print(calendar.head())
 
-print(calendar.available.value_counts())
+# print(calendar.available.value_counts())
 
 calendar_new = calendar[['date', 'available']]
 calendar_new['busy'] = calendar_new.available.map( lambda x: 0 if x == 't' else 1)
